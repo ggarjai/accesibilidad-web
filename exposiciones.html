@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Exposiciones · La Galería Ecléctica</title>
@@ -19,8 +19,8 @@
             <a href="#">EN</a>
         </div>
     </div>
-    <a href="index.html">
-        <img src="assets/img/logo.png" />
+    <a href="index.html">Inicio
+        <img src="assets/img/logo.png" alt="logo"/>
     </a>
     <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
@@ -55,15 +55,15 @@
         <h2> Exposiciones actuales</h2>
         <div class="fila align-izquierda">
             <div class="cuatro-columnas">
-                <a href="expo-detalle.html">
-                    <img src="assets/img/expo-cezanne.jpg" />
+                <a href="expo-detalle.html">Exposiciones
+                    <img src="assets/img/expo-cezanne.jpg" alt="cuadro jugadores"/>
                 </a>
                 <p>De 02/12/2018 a 17/04/2019</p>
                 <a href="expo-detalle.html"><h3>Impresiones </h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-caravaggio.jpg"/>
+                <a href="" aria-label="Negacion de san pedro">
+                    <img src="assets/img/expo-caravaggio.jpg" alt="Negación de san pedro"/>
                 </a>
                 <p>De 03/12/2018 a 17/05/2019</p>
                 <a href="#"> <h3>Caravaggio: el pintor del claroscuro </h3></a>
@@ -75,25 +75,25 @@
         <h2> Próximas Exposiciones</h2>
         <div class="fila align-izquierda">
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-terracota.jpg"/>
+                <a href="" aria-label="Figuras antiguas">
+                    <img src="assets/img/expo-terracota.jpg" alt="Figuras antiguas"/>
                 </a>
                 <p>De 18/05/2019 a 18/06/2019</p>
-                <a href="#"> <h3>Terracotas </h3></a>
+                <a href="#" aria-label="Terracotas"> <h3>Terracotas </h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-cezanne.jpg"/>
+                <a href="expo-detalle2.html">Exposiciones
+                    <img src="assets/img/expo-cezanne.jpg" alt="cuadro jugadores"/>
                 </a>
                 <p>De 18/05/2019 a 17/07/2019</p>
                 <a href="#"> <h3>Cézanne: el padre de la modernidad </h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-storytelling.jpg"/>
+                <a href="" aria-label="pintura romana">
+                    <img src="assets/img/expo-storytelling.jpg" alt="pintura romana"/>
                 </a>
                 <p>De 19/06/2019 a 20/09/2019 </p>
-                <a href="#"> <h3>Storytelling, los artistas comparten historias</h3></a>
+                <a href="" aria-label="storytelling"> <h3>Storytelling, los artistas comparten historias</h3></a>
             </div>
         </div>
     </section>
@@ -102,32 +102,32 @@
         <h2> Exposiciones Anteriores</h2>
         <div class="fila align-izquierda">
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-rostro-humano.jpg" />
+                <a href="" aria-label="rostro humano">
+                    <img src="assets/img/expo-rostro-humano.jpg" alt="rostro humano" />
                 </a>
                 <a href="#"> <h3>El rostro humano en el arte</h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-vangogh.jpg" />
+                <a href="" aria-label="Esencia del arte vangogh">
+                    <img src="assets/img/expo-vangogh.jpg" alt="Esencia del arte vangogh" />
                 </a>
                 <a href="#"> <h3>El color, esencia del arte</h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-pintores-holandeses.jpg"/>
+                <a href="" aria-label="pintores holandeses">
+                    <img src="assets/img/expo-pintores-holandeses.jpg" alt="pintores holandeses"/>
                 </a>
                 <a href="#"> <h3>Pintores holandeses</h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-goya.jpg" />
+                <a href="" aria-label="expo goya buhos">
+                    <img src="assets/img/expo-goya.jpg" alt="expo goya buhos"/>
                 </a>
                 <a href="#"> <h3>Goya, el sueño de la razón...</h3></a>
             </div>
             <div class="cuatro-columnas">
-                <a href="#">
-                    <img src="assets/img/expo-manuscritos.jpg" />
+                <a href="" aria-label="manuscritos">
+                    <img src="assets/img/expo-manuscritos.jpg" alt="manuscritos" />
                 </a>
                 <a href="#"> <h3>Manuscritos</h3></a>
             </div>
@@ -142,25 +142,37 @@
 <footer class="container-fluid">
     <div class="container pie">
         <h4>La Galería Ecléctica</h4>
-        <a href="#">
+        <a href="" aria-label="direccion">
             Plaza del Poblenou, 1 <br>
             08018 Barcelona
         </a>
         <div class="rrss">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube-square"></i></a>
+            <ul>
+                <li>
+                    <a href="test1.html" aria-label="logo facebook"><i class="fab fa-facebook-square"></i>Facebook</a>
+                </li>
+                <li>
+                    <a href="test2.html" aria-label="logo twitter"><i class="fab fa-twitter-square"></i>Twitter</a>
+                </li>
+                <li>
+                    <a href="test3.html" aria-label="logo instagram"><i class="fab fa-instagram"></i>Instagram</a>
+                </li>
+                <li>
+                    <a href="test4.html" aria-label="logo youtube"><i class="fab fa-youtube-square"></i>Youtube</a>
+                </li>
+            </ul>
         </div>
 
         <form>
             <h4>Suscríbete a nuestra Newsletter</h4>
             <div class="form-group">
+                <label class="form-control" for="exampleInputEmail1">Introduce tu email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter email">
             </div>
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Acepto la <a href="#">Política de privacidad </a></label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                
             </div>
             <button type="submit" class="btn btn-secondary">Registrarme</button>
         </form>
