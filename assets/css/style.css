@@ -220,7 +220,7 @@ footer .pie h2, footer .pie a,footer .pie div{
     width: 100%;
     text-align: center;
 }
-footer .rrss{
+footer .rrss ul{
     border-bottom: solid thin #E5E7E9 ;
     padding-bottom: 20px;
 }
