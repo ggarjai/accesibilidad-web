@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Exposiciones · La Galería Ecléctica</title>
@@ -19,8 +19,8 @@
                     <a href="#">EN</a>
                 </div>
             </div>
-            <a href="index.html">
-                <img src="assets/img/logo.png" />
+            <a href="index.html">Inicio
+                <img src="assets/img/logo.png" alt="logo"/>
             </a>
             <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
@@ -83,32 +83,32 @@
                              Esta exposición incluye muchas de las obras que nos ha legado el genial pintor.
                         </p>
                         <p>
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/iSFDQKXMtMo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="315" title="Animacion de Edgar Degas" src="https://www.youtube.com/embed/iSFDQKXMtMo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                              Animación inspirada por La clase de danza de Edgar Degas.
                             The Metropolitan Museum of Art
                         </p>
 
-                        <table class="table table-light">
-                            <tr class="bg-verde-oscuro">
-                                <th colspan="2">Obra mostrada en esta página</th>
-                            </tr>
-                            <tr>
-                                <th>Título</th>
-                                <td>Las Bailarinas</td>
-                            </tr>
-                            <tr>
-                                <th>Artista</th>
-                                <td>Edgar Degas</td>
-                            </tr>
-                            <tr>
-                                <th>Técnica</th>
-                                <td>Pastel y carboncillo sobre papel</td>
-                            </tr>
-                            <tr>
-                                <th>Dimensiones</th>
-                                <td>71.1 x 59.1 cm</td>
-                            </tr>
-                        </table>
+                        <div class="table table-light">
+                            <div class="bg-verde-oscuro">
+                                <div>Obra mostrada en esta página</div>
+                            </div>
+                            <div>
+                                <div>Título</div>
+                                <div>Las Bailarinas</div>
+                            </div>
+                            <div>
+                                <div>Artista</div>
+                                <div>Edgar Degas</div>
+                            </div>
+                            <div>
+                                <div>Técnica</div>
+                                <div>Pastel y carboncillo sobre papel</div>
+                            </div>
+                            <div>
+                                <div>Dimensiones</div>
+                                <div>71.1 x 59.1 cm</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -117,29 +117,40 @@
         <footer class="container-fluid">
             <div class="container pie">
                 <h4>La Galería Ecléctica</h4>
-                <a href="#">
+                <a href="" aria-label="direccion">
                     Plaza del Poblenou, 1 <br>
                     08018 Barcelona
                 </a>
                 <div class="rrss">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                    <ul>
+                        <li>
+                            <a href="test1.html" aria-label="logo facebook"><i class="fab fa-facebook-square"></i>Facebook</a>
+                        </li>
+                        <li>
+                            <a href="test2.html" aria-label="logo twitter"><i class="fab fa-twitter-square"></i>Twitter</a>
+                        </li>
+                        <li>
+                            <a href="test3.html" aria-label="logo instagram"><i class="fab fa-instagram"></i>Instagram</a>
+                        </li>
+                        <li>
+                            <a href="test4.html" aria-label="logo youtube"><i class="fab fa-youtube-square"></i>Youtube</a>
+                        </li>
+                    </ul>
                 </div>
                 <form>
                     <h4>Suscríbete a nuestra Newsletter</h4>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email">
+                        <label class="form-control" for="email">Introduce tu email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label>Acepto la <a href="#">Política de privacidad </a></label>
+                        <label class="form-check-label" for="check">Acepto la <a href="#">Política de privacidad </a></label>
+                        <input type="checkbox" class="form-check-input" id="check">
                     </div>
                     <button type="submit" class="btn btn-secondary">Registrarme</button>
                 </form>
-                <a href="index.html" class="logo">
-                    <img src="assets/img/logo.png"/>
+                <a href="index.html" class="logo" aria-label="logo">
+                    <img src="assets/img/logo.png" alt="logo"/>
                 </a>
                 <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                     <div class="navbar-nav">
